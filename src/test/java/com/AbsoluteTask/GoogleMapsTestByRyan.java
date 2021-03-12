@@ -12,13 +12,6 @@ import static org.hamcrest.Matchers.* ;
 public class GoogleMapsTestByRyan {
 
 
-    @BeforeAll
-    public static void setUp() {
-        baseURI = "https://maps.googleapis.com/maps";
-        basePath = "/api";
-
-    }
-
     @Test
     public void getRequest() {
 
